@@ -1,0 +1,18 @@
+{
+    "autoload": {
+      "psr-4": {"":"src/"}
+    },
+    "require": {
+        "paypal/paypal-checkout-sdk": "1.0.1"
+    },
+    "scripts" :{
+      "docs": "./vendor/phpdocumentor/phpdocumentor/bin/phpdoc -t ./docs/manual_tecnico",
+      "less": "./vendor/bin/lessc --compress ./public/css_src/style.less ./public/css/appstyle.css"
+      
+    },
+    "config": {
+        "allow-plugins": {
+            "symfony/flex": true
+        }
+    }
+}

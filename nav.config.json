@@ -1,0 +1,56 @@
+{
+  "public": [
+    {
+      "id": "Menu_SignIn",
+      "nav_url": "index.php?page=Sec_Login",
+      "nav_label":"<i class=\"fas fa-sign-in-alt\"></i>Iniciar Sesión"
+    },
+     {
+      "id": "Menu_SignUp",
+      "nav_url": "index.php?page=Sec_Register",
+      "nav_label":"<i class=\"fas fa-sign-in-alt\"></i>Crear Cuenta"
+    },
+    {
+      "id": "Menu_CatalogoProductos",
+      "nav_url": "index.php?page=Productos-Catalogo-CatalogoList",
+      "nav_label":"Catalogo de Productos"
+    },
+    {
+      "id": "Menu_CarritoCompras",
+      "nav_url": "index.php?page=Carrito-Carrito",
+      "nav_label":"Carrito de Compras"
+    }
+  ],
+  "private": [
+    {
+      "id":"Menu_PaymentCheckout",
+      "nav_url": "index.php?page=Checkout_Checkout",
+      "nav_label": "Carretilla de Compra"
+    },
+    {
+      "id": "Menu_Productos",
+      "nav_url": "index.php?page=Productos-ProductosList",
+      "nav_label":"Productos"
+    },
+    {
+      "id": "Menu_Proveedores",
+      "nav_url": "index.php?page=Productos-Proveedores-ProveedoresList",
+      "nav_label":"Proveedores"
+    },
+    {
+      "id": "Menu_Categorias",
+      "nav_url": "index.php?page=Productos-Categorias-CategoriasList",
+      "nav_label":"Categorias"
+    },
+    {
+      "id": "Menu_CatalogoProductos",
+      "nav_url": "index.php?page=Productos-Catalogo-CatalogoList",
+      "nav_label":"Catalogo de Productos"
+    },
+    {
+      "id": "Menu_CarritoCompras",
+      "nav_url": "index.php?page=Carrito-Carrito",
+      "nav_label":"Carrito de Compras"
+    }
+  ]
+}

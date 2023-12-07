@@ -1,0 +1,92 @@
+/* ----- Variables ----- */
+:root {
+    --color-primary: #4c4c4c;
+    --color-secondary: #a6a6a6;
+    --color-highlight: #ff3f40;
+}
+
+/* ----- Global ----- */
+* {
+    box-sizing: border-box;
+}
+
+h3 {
+    font-size: 0.7em;
+    letter-spacing: 1.2px;
+    color: var(--color-secondary);
+}
+
+img {
+    max-width: 100%;
+}
+
+/* ----- Product Section ----- */
+.product {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-left: 2em;
+    padding: 2.5em 0;
+    gap: 3em;
+}
+
+/* ----- Photo Section ----- */
+.photo-container {
+    width: 30em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 4px 4px 25px -2px rgba(0, 0, 0, 0.3);
+    padding: 1.0em 0.5em;
+}
+
+.photo-main img {
+    height: 400px;
+}
+
+/* ----- Informations Section ----- */
+.title h1 {
+    margin-bottom: 0.1em;
+    color: var(--color-primary);
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.price {
+    margin: 1.5em 0;
+    color: var(--color-highlight);
+    font-size: 1.2em;
+}
+
+.price span {
+    padding-left: 0.15em;
+    font-size: 2.9em;
+}
+
+.description {
+    clear: left;
+}
+
+.description h3 {
+    margin-bottom: 1em;
+}
+
+.buy--btn {
+    padding: 1.5em 3.1em;
+    border: none;
+    border-radius: 7px;
+    font-size: 0.8em;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+    color: #fff;
+    background-color: var(--color-highlight);
+    box-shadow: 2px 2px 25px -7px var(--color-primary);
+    cursor: pointer;
+    margin-bottom: 1.5em;
+}
+
+.buy--btn:active {
+    transform: scale(0.97);
+}
